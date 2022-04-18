@@ -20,9 +20,9 @@ const linking: LinkingOptions<RootStackParamList> = {
               TabOneScreen: 'one',
             },
           },
-          TabTwo: {
+          Links: {
             screens: {
-              TabTwoScreen: 'two',
+              LinkScreen: 'link',
             },
           },
         },
