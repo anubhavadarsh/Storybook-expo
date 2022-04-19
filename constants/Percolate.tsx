@@ -1,3 +1,4 @@
+import React, {FC} from 'react';
 import { createIconSet } from '@expo/vector-icons';
 const glyphMap = {
   graphql: 59658,
@@ -131,11 +132,22 @@ const glyphMap = {
   meteor: 58992,
 };
 
-const iconSet = createIconSet(glyphMap, 'percolate', '../assets/icon/percolate.ttf');
+const IconSet = createIconSet(glyphMap, 'percolate', '../assets/icon/percolate.ttf');
 
-export default iconSet;
+interface IIconSetProps {
+ name: keyof typeof glyphMap,
+ color: string,
+ size?: number,
+ style?: object,
+}
 
-export const Button = iconSet.Button;
+const PercolateIcons: FC<IIconSetProps> = ({name, color, size, style}) => {
+	return <IconSet name={name} color={color} size={size} style={style}></IconSet>
+}
+
+export default PercolateIcons;
+
+export const Button = IconSet.Button;
 // export const TabBarItem = iconSet.TabBarItem;
 // export const TabBarItemIOS = iconSet.TabBarItemIOS;
 // export const ToolbarAndroid = iconSet.ToolbarAndroid;
