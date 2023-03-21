@@ -3,7 +3,7 @@
 ## About
 
 This is a sample project that demonstrates how to use Storybook with Expo App, it was created in order to help new users create a design system for react native app
-that is demostrated in my blog.
+that is demostrated in my blog:  [![Storybook + React Native](https://medium.com/towardsdev/storybook-react-native-60ec2236c583)](https://medium.com/towardsdev/storybook-react-native-60ec2236c583).
 
 ## Getting Started
 
