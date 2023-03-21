@@ -17,20 +17,25 @@ that is demostrated in my blog.
 1. Clone the repo
    ```sh
    git clone https://github.com/anubhavadarsh/Storybook-expo.git
+   
 2. Install NPM packages
-```sh
-  npm install
+   ```sh
+   npm install
+  
 3. Start the Expo server
-```sh
-  expo start
+   ```sh
+   expo start
+  
 ### Usage
 1. Run the app
-```sh
-  expo start
+   ```sh
+   expo start
+  
 2. Open the Storybook
-```sh
-  npm run storybook
-Contributing
+   ```sh
+   npm run storybook
+  
+### Contributing
 Contributions are always welcome!
 
 ### License
